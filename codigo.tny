@@ -1,0 +1,15 @@
+{   Programa de exemplo
+	na linguagem TINY
+}
+
+read x; {entrada de um inteiro}
+if 0 < x then {nao calcula se x <= 0}
+	fact := 1;
+	repeat
+	
+		fact := fact * x;
+		x := x - 1
+		
+	until x = 0;
+	write fact {saida do fatorial de x}
+end
